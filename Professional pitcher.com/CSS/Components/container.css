@@ -1,0 +1,70 @@
+.user-type {
+    width: 45%;
+    height: 530px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-type h2 {
+    text-align: center;
+}
+
+.user-type p {
+    text-align: justify;
+
+}
+
+
+ .user-type a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(180, 180, 255, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom:10px ;
+    
+        
+}
+
+
+.user-type.bg1 {
+    background-image: url('https://d36ae2cxtn9mcr.cloudfront.net/wp-content/uploads/2021/03/19065935/ceo-seok-hee-lee-talks_thumb.jpg');
+    background-size:cover ;
+    color:white;
+background-color:linear-gradient(rgba(255, 255, 255, 0.5), rgba(218, 112, 214, 0.5)) ;
+}
+
+.user-type.bg2 {
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/0*k3_J5-DwgCiMcdBi');
+    background-size:cover ;
+    color:black ;
+    background-color:linear-gradient(rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)) ;
+     }
+
+        @media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+ 
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+  }
+}
+

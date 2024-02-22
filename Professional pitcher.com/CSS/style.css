@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/searchbar.css");
+body {
+
+font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+}
+
+h1,h2,h3 {
+
+	font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weights  font-style: normal;
+  
+}
+
+
+
+h2 {
+  font size:14px;
+}
+
+        body {
+            font-family: 'Cabin', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4676E5;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            text-justify:auto ;
+            background-color: rgba(180, 180, 255, 0.8);
+            padding: 10px;
+            border border-radius:5px ;
+        }
+
+        
+        
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+       
+
+        footer {
+            background-color: rgba(255, 255, 255, 0.5);
+                        color: black;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+
+        }
